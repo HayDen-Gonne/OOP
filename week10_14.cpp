@@ -19,7 +19,7 @@ int main(){
   std::cout << std::endl;
   
   std::vector<std::string> vecStr{"Only", "for", "testing", "purpose", "."};
-  std::vector<std::string> vecStr2(5, "-");
+  std::vector<std::string> vecStr2{"-", "*", "#", "^", "("};
   
   std::vector<std::string> vecRes;
   
